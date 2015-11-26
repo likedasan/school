@@ -6,6 +6,8 @@
 <h2>jdbc 드라이버 테스트</h2>
 <%
 	Connection conn = null;
+	PreparedStatement pstmt=null;
+	ResultSet rs=null
 	
 	try{
 		String jdbcUrl="jdbc:mysql://localhost:3306/jsptest";
