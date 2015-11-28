@@ -19,6 +19,9 @@
 		out.println("제대로 연결되었음.");
 	}catch(Exception e){
 		e.printStackTrace();
+		out.println("연결 실패");
+	}finally{
+		out.println("파이널리 입니다.");
 	}
 	
 	
