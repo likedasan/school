@@ -8,9 +8,7 @@
 </head>
 <body>
 <%response.setStatus(HttpServletResponse.SC_OK); %>
-
-<font size=20 color="red">404에러입니다. 문서를 찾을 수 없습니다. ㅠㅠㅠㅠㅠㅠ</font>
-<img src="http://localhost:8080/SchoolProject/error/error.jsp">
+<img src="http://localhost:8080/SchoolProject/test/error/img_error.jpg">
 
 
 </body>

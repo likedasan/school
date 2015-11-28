@@ -10,14 +10,14 @@
     <welcome-file>default.jsp</welcome-file>
   </welcome-file-list>
   
-<!-- 에러 처리 -->
+  <!-- 에러 처리 -->
 <error-page><!-- 404에러 처리 -->
 <error-code>404</error-code>
 <location>/error/404error.jsp</location>
 </error-page> 
 <!-- 404end -->
 <error-page><!-- 404에러 처리 -->
-<error-code>505</error-code>
+<error-code>500</error-code>
 <location>/error/500error.jsp</location>
 </error-page>
 </web-app>
